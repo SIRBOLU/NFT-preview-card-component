@@ -25,12 +25,11 @@ body{
   font-family: 'Outfit', sans-serif;
 }
 section .cover{
+  height: 100%;
+  display: grid;
+  place-items: center;
   background-color: var(--main-BG);
-  width: 400px;
-  height: 700px;
-  margin:auto;
-  /* margin-top: 100px; */
-  /* padding-top: 0px; */
+  width: 100%;
 }
 section #main {
   position: relative;
